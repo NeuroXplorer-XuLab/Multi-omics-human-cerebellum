@@ -1,0 +1,59 @@
+{
+  "name": "spgw13",
+  "shortLabel": "Stereo-seq_Cerebullum",
+  "exprMatrix": "data_exprMatrix.tsv.gz",
+  "matrices": [
+    {
+      "label": "counts",
+      "fileName": "counts_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "data",
+      "fileName": "data_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "scale",
+      "fileName": "scale_exprMatrix.tsv.gz"
+    }
+  ],
+  "tags": [
+    "Stereo-seq"
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "celltype",
+  "labelField": "celltype",
+  "enumFields": [
+    "orig.ident",
+    "seurat_clusters",
+    "celltype",
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/data1/fudan/webtry/spgw13/markers.tsv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/data1/fudan/webtry/spgw13/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/data1/fudan/webtry/spgw13/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "hideDownload": true,
+  "body_parts": [
+    "cerebellum"
+  ],
+  "organisms": [
+    "human"
+  ],
+  "colors": "colors.tsv",
+  "unit": "normalized counts",
+  "showLabels": false,
+  "inDir": ""
+}
