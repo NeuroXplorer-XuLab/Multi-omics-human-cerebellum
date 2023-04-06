@@ -1,0 +1,20 @@
+{
+  "title": "Sample Dataset description",
+  "image": [
+    "picture1_02.jpg",
+    891,
+    400
+  ],
+  "abstract": "The cerebellum is a crucial component of the central nervous system, housing over 80% of the brain's total neurons. Its integrated neural networks coordinate various functions such as motor control, cognition, emotion, and language. Different regions of the cerebellar cortex activate in response to specific functions, and impairments in cerebellar circuits can hinder motor system function and cause disorders such as autism spectrum symptoms and attention disorders.In this study, we adapted multi-omics high-resolution sequencing technologies to investigate the developmental progress of human cerebellum. Our results revealed the gene expression patterns, epigenetic modifications, and chromatin accessibility changes during cerebellar development, providing a comprehensive understanding of the molecular mechanisms underlying cerebellar development.This study sheds light on the importance of cerebellar development and its role in the central nervous system. The findings could potentially lead to the development of new therapies for cerebellar-related disorders and contribute to the advancement of neurobiology.\n",
+  "methods": "\nThe human fetal brain undergoes a series of complex developmental processes during the gestational period. This study provides a comprehensive resource for understanding the transcriptional landscape of human fetal brain development, which could contribute to the identification of novel markers and potential therapeutic targets for developmental disorders. The spatial transcriptomic data also provides a valuable resource for the scientific community to further investigate the spatial organization of the fetal brain.\n\n",
+  "submitter": "Dan",
+  "lab": "Xu Lab",
+  "institution": "Institute of Genetics and Developmental Biology, Chinese Academy of Sciences",
+  "inDir": "",
+  "coordFiles": [
+    "Seurat_umap.coords.tsv.gz",
+    "Seurat_pca.coords.tsv.gz"
+  ],
+  "matrixFile": "/data1/fudan/spwebtry/html/spgw13/exprMatrix.tsv.gz",
+  "imageMd5": "8f29c57c2aae6e11ecd1c537840e7759"
+}

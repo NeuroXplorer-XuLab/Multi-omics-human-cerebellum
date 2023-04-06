@@ -1,0 +1,356 @@
+{
+  "fileVersions": {
+    "inMatrix": {
+      "fname": "/data1/fudan/webtry/spgw13/data_exprMatrix.tsv.gz",
+      "md5": "bac40b34c4",
+      "size": 84049881,
+      "mtime": "2023-04-02 15:05:30"
+    },
+    "outMatrix": {
+      "fname": "/data1/fudan/spwebtry/html/spgw13/exprMatrix.tsv.gz",
+      "md5": "bac40b34c4",
+      "size": 84049881,
+      "mtime": "2023-04-06 03:07:39"
+    },
+    "inMeta": {
+      "fname": "/data1/fudan/webtry/spgw13/meta.tsv",
+      "md5": "755886dec1",
+      "size": 180219,
+      "mtime": "2023-04-06 03:12:35"
+    },
+    "outMeta": {
+      "fname": "/data1/fudan/spwebtry/html/spgw13/meta.tsv",
+      "md5": "28ff2e2f97",
+      "size": 162163,
+      "mtime": "2023-04-06 03:12:39"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "8a3b7475b6",
+      "size": 4241,
+      "mtime": "2023-04-02 16:18:02"
+    },
+    "conf": {
+      "fname": "/data1/fudan/webtry/spgw13/cellbrowser.conf",
+      "md5": "c19b40e543",
+      "size": 1350,
+      "mtime": "2023-04-02 16:19:18"
+    }
+  },
+  "matrixArrType": "Float32",
+  "sampleCount": 3609,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 14,
+      "diffValCount": 3609,
+      "md5": "12e37ee790"
+    },
+    {
+      "name": "nCount_Spatial",
+      "label": "nCount_Spatial",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2746,
+      "md5": "3ec12b1dc0"
+    },
+    {
+      "name": "nFeature_Spatial",
+      "label": "nFeature_Spatial",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 1606,
+      "md5": "86c4893702"
+    },
+    {
+      "name": "percentmito",
+      "label": "percent.mito",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 3598,
+      "md5": "6194b218c7"
+    },
+    {
+      "name": "seurat_clusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          876
+        ],
+        [
+          "1",
+          720
+        ],
+        [
+          "2",
+          442
+        ],
+        [
+          "3",
+          422
+        ],
+        [
+          "4",
+          360
+        ],
+        [
+          "5",
+          241
+        ],
+        [
+          "6",
+          165
+        ],
+        [
+          "7",
+          131
+        ],
+        [
+          "8",
+          95
+        ],
+        [
+          "9",
+          89
+        ],
+        [
+          "10",
+          68
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 11,
+      "md5": "73cf43d5a5"
+    },
+    {
+      "name": "celltype",
+      "label": "celltype",
+      "type": "enum",
+      "valCounts": [
+        [
+          "VZ+IZ",
+          1837
+        ],
+        [
+          "oEGL",
+          531
+        ],
+        [
+          "Chroid plexus",
+          428
+        ],
+        [
+          "iEGL",
+          422
+        ],
+        [
+          "Vessels",
+          165
+        ],
+        [
+          "RL",
+          131
+        ],
+        [
+          "Epithelia",
+          95
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 7,
+      "md5": "b13a779040"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          876
+        ],
+        [
+          "1",
+          720
+        ],
+        [
+          "2",
+          442
+        ],
+        [
+          "3",
+          422
+        ],
+        [
+          "4",
+          360
+        ],
+        [
+          "5",
+          241
+        ],
+        [
+          "6",
+          165
+        ],
+        [
+          "7",
+          131
+        ],
+        [
+          "8",
+          95
+        ],
+        [
+          "9",
+          89
+        ],
+        [
+          "10",
+          68
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 11,
+      "md5": "67dba77fb5"
+    }
+  ],
+  "labelField": "celltype",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "361601ff06",
+      "minX": 34,
+      "maxX": 18600.0,
+      "minY": 34,
+      "maxY": 16600.0,
+      "type": "Float32",
+      "textFname": "Seurat_umap.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "Seurat pca",
+      "md5": "e45d3f14cb",
+      "minX": -5.94913259089846,
+      "maxX": 19.2147674176171,
+      "minY": -13.9334926798236,
+      "maxY": 7.08227689036567,
+      "type": "Float32",
+      "textFname": "Seurat_pca.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "PCP4",
+      "ID2",
+      "RORA",
+      "SOX4",
+      "UCHL1"
+    ],
+    "1": [
+      "ID2",
+      "UCHL1",
+      "PCP4",
+      "SOX4",
+      "SLC1A6"
+    ],
+    "2": [
+      "COX8A",
+      "WWC2",
+      "SPOCK3",
+      "CABP7",
+      "SYT16"
+    ],
+    "3": [
+      "LAPTM4B",
+      "PTPRM",
+      "SMIM7",
+      "HSPA13",
+      "RHEB"
+    ],
+    "4": [
+      "LAMP2",
+      "PTPN14",
+      "RAD23B",
+      "RBMS3-AS3",
+      "DCTD"
+    ],
+    "5": [
+      "TAC1",
+      "ENC1",
+      "MICAL3",
+      "CXADR",
+      "ATP5MF-PTCD1"
+    ],
+    "6": [
+      "AUTS2",
+      "DYNC1I2",
+      "EBF3",
+      "WASF3",
+      "FEZ1"
+    ],
+    "7": [
+      "ADCYAP1",
+      "TFAM",
+      "SAP30L",
+      "PRRC2B",
+      "SEMA3A"
+    ],
+    "8": [
+      "RPS14",
+      "IGFBP4",
+      "AC099850.1",
+      "AEBP1",
+      "CYP1B1"
+    ],
+    "9": [
+      "TMPO",
+      "RPLP0P6",
+      "BHLHE22",
+      "SH3BP4",
+      "SEPT9"
+    ],
+    "10": [
+      "CREB3L1",
+      "GSN",
+      "CALU",
+      "LDHA",
+      "STIMATE-MUSTN1"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "shortLabel": "Stereo-seq_Cerebullum",
+  "tags": [
+    "Stereo-seq"
+  ],
+  "clusterField": "celltype",
+  "showLabels": false,
+  "unit": "normalized counts",
+  "hideDownload": true,
+  "body_parts": [
+    "cerebellum"
+  ],
+  "organisms": [
+    "human"
+  ],
+  "name": "spgw13",
+  "firstBuildTime": "2023-04-06T11:08:02.408852",
+  "lastBuildTime": "2023-04-06T11:12:40.186540",
+  "md5": "7f31cc0444"
+}
